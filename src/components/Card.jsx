@@ -1,16 +1,17 @@
 import React from 'react'
 import "./Card.css";
 import { personas } from '../data/personas';
+import { Link } from 'react-router-dom';
 
 
 function Card({ title = "titulo por defecto", description = "descripcion por defecto", location = "Locacion por defecto", imagen = "imagen por defecto" }) {
   return (
     <div className='Card'>
-      <h2>{title}</h2>
+     <Link to={title}><h2>{title}</h2></Link> 
       <img src={imagen} width="100%" alt="Imagen" /> {/* Renderizar la imagen */}
       <h3>{description}</h3>
       <p>{location}</p>
-      <button >Ver más </button>
+      <Link to={title}><button >Ver más </button></Link>
     </div>
   )
 }
