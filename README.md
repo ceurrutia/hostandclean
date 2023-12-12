@@ -1,2 +1,7 @@
-# hostandclean
-#Projecto sencillo en React
+# Hostandclean
+Projecto sencillo en React
+
+[!Note]
+Requirements: Node.jds, Vite
+
+
