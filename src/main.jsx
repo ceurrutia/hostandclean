@@ -5,11 +5,33 @@ import './index.css';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { personas } from './data/personas.js';
 import PersonaView from './views/PersonaView.jsx';
+import Navbar from './components/Navbar.jsx';
 
 const routes = [
   {
     path: "/",
     element: <App />
+  },
+  {
+    path: "/about",
+    element: <Navbar />
+  },
+  {
+    path: "/contact",
+    element: <Navbar />
+  },
+  {
+    path: "/how",
+    element: <Navbar />
+  },
+
+  {
+    path: "/cleaners",
+    element: <Navbar />
+  },
+  {
+    path: "/hosts",
+    element: <Navbar />
   },
 
 ];

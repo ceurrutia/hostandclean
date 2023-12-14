@@ -1,23 +1,34 @@
 
 import "./App.css"
+import "./App.scss"
 import Card from "./components/Card";
 import { personas } from "./data/personas";
 //import ShowHide from "./components/showhide";
+import Navbar from "./components/Navbar";
 
 function App() {
+
   const personaList = personas.map(v => {
-    return <Card title={v.name} imagen={v.image} description={v.description} location={v.location}/>
+    return <Card title={v.name} imagen={v.image} role={v.role} description={v.description} location={v.location} contact={v.contact} />
 
   });
 
   return <div className='App'>
+
+    <Navbar />
+
+
     <h1> Welcome to Host and clean</h1>
+  
     <div className='container'>
-     {personaList}
-    
+
+      {personaList}
+
     </div>
     {/* <ShowHide/> */}
+
   </div>
+
 }
 
 export default App;

@@ -1,0 +1,9 @@
+/*abstracts*/
+
+@use './scss/abstarcts/variables';
+@use './scss/abstarcts/mixins';
+
+/*Base*/
+
+@use './scss/base/base';
+@use './scss/base/resets';
