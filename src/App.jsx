@@ -5,6 +5,8 @@ import Card from "./components/Card";
 import { personas } from "./data/personas";
 //import ShowHide from "./components/showhide";
 import Navbar from "./components/Navbar";
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap/js/dist/dropdown';
 
 function App() {
 
@@ -14,12 +16,8 @@ function App() {
   });
 
   return <div className='App'>
-
-    <Navbar />
-
-
     <h1> Welcome to Host and clean</h1>
-  
+
     <div className='container'>
 
       {personaList}
@@ -27,8 +25,10 @@ function App() {
     </div>
     {/* <ShowHide/> */}
 
+
   </div>
 
 }
+
 
 export default App;
