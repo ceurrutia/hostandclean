@@ -1,7 +1,7 @@
 # Hostandclean
-Projecto sencillo en React
+Projecto web dinamica en React Vite.
 
 [!Note]
-Requirements: Node.jds, Vite
+Requirements: Node.js, React, Vite, Bootstrap, Sass
 
 
