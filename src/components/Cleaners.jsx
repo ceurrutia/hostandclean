@@ -3,9 +3,9 @@ import Card from './Card'
 import { personas } from '../data/personas';
 
 function Cleaners() {
-    //aplico filtro de hosts
+    //aplico filtro de cleanres
   const cleaner = personas.filter(persona => persona.role === 'Cleaner');
-  //mapeamos hosts
+  //mapeamos cleaners
   const personaList = cleaner.map(cleaner => (
     <Card
       key={cleaner.name} 
