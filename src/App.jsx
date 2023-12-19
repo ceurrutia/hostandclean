@@ -14,6 +14,7 @@ function App() {
     return <Card title={v.name} imagen={v.image} role={v.role} description={v.description} location={v.location} contact={v.contact} />
 
   });
+  
 
   return <div className='App'>
     <h1> Welcome to Host and clean</h1>

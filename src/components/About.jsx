@@ -5,7 +5,7 @@ import React from 'react';
 
 const About = () => {
     return (
-       <div>
+       <div  className='row'>
 <div class="card">
   <div class="card-header">
     Featured

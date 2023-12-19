@@ -35,7 +35,7 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/how">
-                  How use host and clean
+                  How to use
                 </Link>
               </li>
               <li className="nav-item dropdown">
@@ -66,6 +66,17 @@ function Navbar() {
                   Contact
                 </Link>
               </li>
+              <li>
+                <Link className="nav-link" to="/login">
+                  Login
+                </Link>
+              </li>
+              <li>
+                <Link className="nav-link" to="/register">
+                  Register
+                </Link>
+              </li>
+
             </ul>
           </div>
         </div>
