@@ -1,13 +1,30 @@
 import React from 'react'
 import Card from './Card'
-
+import { personas } from '../data/personas';
 
 function Cleaners() {
-    return (
+    //aplico filtro de hosts
+  const cleaner = personas.filter(persona => persona.role === 'Cleaner');
+  //mapeamos hosts
+  const personaList = cleaner.map(cleaner => (
+    <Card
+      key={cleaner.name} 
+      title={cleaner.name}
+      imagen={cleaner.image}
+      role={cleaner.role}
+      description={cleaner.description}
+      location={cleaner.location}
+      contact={cleaner.contact}
+    />
+  ));
+     
+      return (
         <div>
-          <div className='row'>
-                <Card />
-            </div>
+          <div className='container'>
+    
+            {personaList}
+    
+          </div>
         </div>
     )
 }
