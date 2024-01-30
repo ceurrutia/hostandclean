@@ -8,25 +8,15 @@ const About = () => {
        <div  className='row'>
 <div class="card">
   <div class="card-header">
-    Featured
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    About Us
   </div>
 
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+  
+    <p class="card-text">We are Agurtzane and Cecilia. Just like you, we have found ourselves in the difficulty of finding hosts and cleaners for our apartment for rent through the platform.</p>
+    
   </div>
-
-  <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
+  
   
 </div>
 

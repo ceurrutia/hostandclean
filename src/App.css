@@ -58,3 +58,13 @@ justify-content: left;
   text-align: center;
   font-weight: 500;
 }
+
+.city-filter{
+  display: flex;
+  justify-content: center;
+ align-items: center;
+  width: 600px;
+  height: 80px;
+  
+  padding: 20px;
+}
