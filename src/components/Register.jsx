@@ -8,7 +8,11 @@ function Register() {
             <h1> Register as new user </h1>
             <div className="mb-3">
                 <label for="exampleFormControlInput1" className="form-label">Name and surname</label>
-                <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="your name and surname" />
+                <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Name and surname" />
+            </div>
+            <div className="mb-3">
+                <label for="exampleFormControlInput1" className="form-label">Email</label>
+                <input type="password" className="form-control" id="exampleFormControlInput1" placeholder="Email" />
             </div>
             <div className="mb-3">
                 <label for="exampleFormControlInput1" className="form-label">Password</label>

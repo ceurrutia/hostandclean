@@ -18,6 +18,7 @@ function App() {
 
   return <div className='App'>
     <h1> Welcome to Host and clean</h1>
+    <p className='home'>Thousands of host users and cleaners to find the closest one in your city.</p>
 
     <div className='container'>
 
